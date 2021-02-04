@@ -1,0 +1,44 @@
+Denco is manufacturing company selling parts to various customers at various regions with various cost and margins.
+•	Objective
+ o	Expand Business by encouraging loyal customers to
+    	Improve repeated sales
+    	Maximise revenue from high value parts
+
+•	Information Required
+   o	Who are the most loyal Customers - Improve repeated sales, Target customers with low sales Volumes
+   o	Which customers contribute the most to their revenue - How do I retain these customers & target incentives
+   o	What part numbers bring in to significant portion of revenue - Maximise revenue from high value parts
+   o	What parts have the highest profit margin - What parts are driving profits & what parts need to build further
+
+Data / Sample
+
+Custname	     region	Partnum	   Revenue	  cost	        margin
+
+3M COMPANY	    01-East	727032005	 24097.50	  19851.82	4245.68
+4-STATE SUPPLY	    01-East	735602000	 156200.00      52381.38	103818.62
+4-STATE SUPPLY	    01-East	777143000	 34927.20	 15382.08	19545.12
+4-STATE SUPPLY	    01-East	777142000	 21989.40	 12562.50	9426.90
+4-STATE SUPPLY	    01-East	735750000	 12487.00	 3686.91	  8800.09
+A G C INC.	    01-East	791104479	 78642.00	  18147.40	60494.60
+A G C INC.	    01-East	791106280	 3340.46	  7614.14	  -4273.68
+
+Find :-
+
+•	Who are the most loyal Customers -
+  o	Make customer table, See customer transaction,
+  o	Sort Customer Transaction,
+  o	How many times are these customers buying from me
+  o	Select the Top 5 or 10 rows (Sorted in Descending Order of Frequency)
+•	Which customers contribute the most to their revenue
+  o	Sum the revenue by each customer
+  o	Sort revenue by customers in descending Order
+•	What part numbers bring in to significant portion of revenue
+  o	Sum/ Group the revenue by part no
+  o	Sort the revenue by decreasing order
+  o	Top revenue by part nos
+•	What parts have the highest profit margin ?
+  o	Sum the margin by partno
+  o	Sort the margin by decreasing order
+  o	Parts contributing highest profit margin
+•	Who are their top buying customers
+•	Who are the customers who are bringing more revenue
