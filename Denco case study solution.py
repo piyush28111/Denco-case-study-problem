@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Feb  4 18:34:59 2021
-
-@author: Lenovo
-"""
 
 import pandas as pd
 
